@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EB421C66B0D116A3529A55F /* Pods_STPUAllocationTracker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EB1DC2E53776700991A993A /* Pods_STPUAllocationTracker_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,8 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		D7734B523157DEE5250DFF62 /* Pods_STPUAllocationTracker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F07A6CD0E22938AF9214E2BA /* Pods_STPUAllocationTracker_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		ED43CBD6FAF500DA81365418 /* Pods_STPUAllocationTracker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A47DBE91F42CA985376A77C /* Pods_STPUAllocationTracker_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D17691E32211C89002E2F8AE /* Pods_STPUAllocationTracker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6002E470B79C19BA348AFD03 /* Pods_STPUAllocationTracker_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +38,11 @@
 /* Begin PBXFileReference section */
 		06134FDE22299B45F4C02AC7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		0CCF4136439B5136752409D6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0EB1DC2E53776700991A993A /* Pods_STPUAllocationTracker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STPUAllocationTracker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		14F07D1308F0DE4DA338FB3B /* Pods-STPUAllocationTracker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STPUAllocationTracker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-STPUAllocationTracker_Tests/Pods-STPUAllocationTracker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4820919828ED66CDA3CBB58D /* Pods-STPUAllocationTracker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STPUAllocationTracker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-STPUAllocationTracker_Example/Pods-STPUAllocationTracker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* STPUAllocationTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = STPUAllocationTracker.app; path = STPUAllocationTracker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6002E470B79C19BA348AFD03 /* Pods_STPUAllocationTracker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STPUAllocationTracker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* STPUAllocationTracker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STPUAllocationTracker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -53,18 +55,16 @@
 		6003F5A5195388D20070C39A /* STPUViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STPUViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* STPUViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STPUViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = STPUAllocationTracker_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* STPUAllocationTracker_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STPUAllocationTracker_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6A47DBE91F42CA985376A77C /* Pods_STPUAllocationTracker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STPUAllocationTracker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A9CFCDC79E7AFC83CF7D774E /* Pods-STPUAllocationTracker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STPUAllocationTracker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STPUAllocationTracker_Example/Pods-STPUAllocationTracker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B5099A597147C7ABF4C3CE82 /* Pods-STPUAllocationTracker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STPUAllocationTracker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STPUAllocationTracker_Tests/Pods-STPUAllocationTracker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F07A6CD0E22938AF9214E2BA /* Pods_STPUAllocationTracker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STPUAllocationTracker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC16E8471E20A86FC5D33C23 /* STPUAllocationTracker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = STPUAllocationTracker.podspec; path = ../STPUAllocationTracker.podspec; sourceTree = "<group>"; };
+		FC16E8471E20A86FC5D33C23 /* STPUAllocationTracker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = STPUAllocationTracker.podspec; path = ../STPUAllocationTracker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				ED43CBD6FAF500DA81365418 /* Pods_STPUAllocationTracker_Example.framework in Frameworks */,
+				4EB421C66B0D116A3529A55F /* Pods_STPUAllocationTracker_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				D7734B523157DEE5250DFF62 /* Pods_STPUAllocationTracker_Tests.framework in Frameworks */,
+				D17691E32211C89002E2F8AE /* Pods_STPUAllocationTracker_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,8 +108,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* STPUAllocationTracker.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* STPUAllocationTracker_Example.app */,
+				6003F5AE195388D20070C39A /* STPUAllocationTracker_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,8 +121,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				6A47DBE91F42CA985376A77C /* Pods_STPUAllocationTracker_Example.framework */,
-				F07A6CD0E22938AF9214E2BA /* Pods_STPUAllocationTracker_Tests.framework */,
+				0EB1DC2E53776700991A993A /* Pods_STPUAllocationTracker_Example.framework */,
+				6002E470B79C19BA348AFD03 /* Pods_STPUAllocationTracker_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -204,8 +204,8 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				4EAAF8AE0EDF44C0CF27E194 /* Embed Pods Frameworks */,
 				236F04C4A408A504698C10DC /* Copy Pods Resources */,
+				D7555279FCE806E535F4BC42 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -213,7 +213,7 @@
 			);
 			name = STPUAllocationTracker_Example;
 			productName = STPUAllocationTracker;
-			productReference = 6003F58A195388D20070C39A /* STPUAllocationTracker.app */;
+			productReference = 6003F58A195388D20070C39A /* STPUAllocationTracker_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* STPUAllocationTracker_Tests */ = {
@@ -224,8 +224,8 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				1D7CDB006BCE69631641EE6A /* Embed Pods Frameworks */,
 				F95E2C7B389E5845C3D28C1D /* Copy Pods Resources */,
+				0E1C949B3302AB5EF4058AE5 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,7 +234,7 @@
 			);
 			name = STPUAllocationTracker_Tests;
 			productName = STPUAllocationTrackerTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* STPUAllocationTracker_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -293,7 +293,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1D7CDB006BCE69631641EE6A /* Embed Pods Frameworks */ = {
+		0E1C949B3302AB5EF4058AE5 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,21 +338,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STPUAllocationTracker_Example/Pods-STPUAllocationTracker_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4EAAF8AE0EDF44C0CF27E194 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STPUAllocationTracker_Example/Pods-STPUAllocationTracker_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		576A6E84A8841A87853FBDAE /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -366,6 +351,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7555279FCE806E535F4BC42 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STPUAllocationTracker_Example/Pods-STPUAllocationTracker_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F95E2C7B389E5845C3D28C1D /* Copy Pods Resources */ = {
